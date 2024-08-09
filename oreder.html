@@ -14,82 +14,104 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about us.html">About Us</a></li>
                 <li><a href="diary products.html">Diary Products</a></li>
-                <li><a href="veg.html">Vegitables</a></li>
+                <li><a href="veg.html">Vegetables</a></li>
                 <li><a href="cosmetics.html">Cosmetics</a></li>
-                <li><a href="oreder.html">Order Page</a></li>
-                <li><a href="loyality.html">Loyality Page</a></li>
-              </ul>
-           </section>
+                <li><a href="order.html">Order Page</a></li>
+                <li><a href="loyality.html">Loyalty Page</a></li>
+            </ul>
+        </section>
     </header>
-        <section class="orderpage">
-           <div class="ps">
-            <h2 class="customer">Customer Information</h2>
-            <form action="#">
+    <section class="orderpage">
+        <div class="ps">
+            <form id="order-form">
                 <div class="orderinfo">
+                    <!-- Product input fields -->
                     <div class="ci">
-                        <label for="Full Name">Full Name:</label>
-                        <input type="text" class="Full Name" placeholder="Bob Marley" required>
-                    </div>
-                    <div class="ci">
-                        <label for="email address">E-mail Address:</label>
-                        <input type="email" class="email" placeholder="ABC@gmail.com" required>
+                        <label for="Suger Free Dark Chocolate">Suger Free Dark Chocolate (800.00):</label>
+                        <input type="number" id="Suger Free Dark Chocolate" min="0" step="1">
                     </div>
                     <div class="ci">
-                        <label for="p.no">Phone number:</label> 
-                        <input type="number" class="num" placeholder="0XX-XXX-XXXX" required>
+                        <label for="Milk & Dark Chocolates">Milk & Dark Chocolates (600.00):</label>
+                        <input type="number" id="Milk & Dark Chocolates" min="0" step="1">
                     </div>
                     <div class="ci">
-                        <label for="Delivery address">Delivery Address:</label>
-                        <input type="text" class="dadd" placeholder="No. 388 Union Pl, Colombo 02" required>
-                    <h2 class="customer">Product Information</h2>
-                    <div class="ci">
-                        <label for="product cat">Product Catergory:</label>
-                        <input type="text" class="pc" placeholder="ex:Diary products" required>
+                        <label for="Butter - 1Kg">Butter - 1Kg (750.00):</label>
+                        <input type="number" id="Butter - 1Kg" min="0" step="1">
                     </div>
                     <div class="ci">
-                        <label for="products name">Products Name:</label>
-                        <input type="text" class="pn" placeholder="ex:milk chocolate">
+                        <label for="Heavenly Ice cream Cone">Heavenly Ice cream Cone (200.00):</label>
+                        <input type="number" id="Heavenly Ice cream Cone" min="0" step="1">
                     </div>
                     <div class="ci">
-                        <label for="Product quan">Quantity:</label>
-                        <input type="text" class="pq" placeholder="ex:500g or 2kg" required>
+                        <label for="Milk">Milk (550.00):</label>
+                        <input type="number" id="Milk" min="0" step="1">
                     </div>
                     <div class="ci">
-                        <input type="radio" class="cart" name="add to cart" value="Add to cart">
-                        <label for="html">Add to Cart</label>
+                        <label for="Low Fat Stawbery Flavoured">Low Fat Stawbery Flavoured (600.00):</label>
+                        <input type="number" id="Low Fat Stawbery Flavoured" min="0" step="1">
                     </div>
                     <div class="ci">
-                        <label for="loyality">Loyality type:</label>
-                        <input type="text" class="lt" placeholder="premium"><br>
-                        <a href="./loyality.html">Checkout Our Loyality Plans</a>
-                    </div>
-                    <h2 class="customer">Payment Information</h2>
-                    <div class="ci">
-                        <input type="checkbox" class="pay" name="payment" value="Payment Options">
-                        <label for="html">Cash On Delivery</label>
+                        <label for="Potatoes">Potatoes (1000.00):</label>
+                        <input type="number" id="Potatoes" min="0" step="1">
                     </div>
                     <div class="ci">
-                        <input type="checkbox" class="pay" name="payment" value="Payment Option">
-                        <label for="html">Online Payment</label>                
+                        <label for="Carrot">Carrot (800.00):</label>
+                        <input type="number" id="Carrot" min="0" step="1">
                     </div>
                     <div class="ci">
-                        <input type="checkbox" class="pay" name="payment" value="Payment Option">
-                        <label for="html">Buy now Pay later</label>                
+                        <label for="Cabbage">Cabbage (650.00):</label>
+                        <input type="number" id="Cabbage" min="0" step="1">
                     </div>
+                    <div class="ci">
+                        <label for="Bell Pepper">Bell Pepper (350.00):</label>
+                        <input type="number" id="Bell Pepper" min="0" step="1">
                     </div>
-                    <div class="submit">
-                        <input type="reset"> 
-                        <input type="submit" value="Checkout">
+                    <div class="ci">
+                        <label for="Tomato">Tomato (600.00):</label>
+                        <input type="number" id="Tomato" min="0" step="1">
                     </div>
+                    <div class="ci">
+                        <label for="Onions">Onions (750.00):</label>
+                        <input type="number" id="Onions" min="0" step="1">
+                    </div>
+                    <div class="ci">
+                        <label for="Sun Cream 500mL">Sun Cream 500mL (850.00):</label>
+                        <input type="number" id="Sun Cream 500mL" min="0" step="1">
+                    </div>
+                    <div class="ci">
+                        <label for="Natural Olive Cream & Lotion">Natural Olive Cream & Lotion (1850.00):</label>
+                        <input type="number" id="Natural Olive Cream & Lotion" min="0" step="1">
+                    </div>
+                    <div class="ci">
+                        <label for="Cucumber Face mask">Cucumber Face mask (1000.00):</label>
+                        <input type="number" id="Cucumber Face mask" min="0" step="1">
+                    </div>
+                    <div class="ci">
+                        <label for="Aloevera Glowing Cream">Aloevera Glowing Cream (1200.00):</label>
+                        <input type="number" id="Aloevera Glowing Cream" min="0" step="1">
+                    </div>
+                    <div class="ci">
+                        <label for="Combo Pack">Combo Pack (3000.00):</label>
+                        <input type="number" id="Combo Pack" min="0" step="1">
+                    </div>
+                    <div class="ci">
+                        <label for="All kinds of premium makeup brushes">All kinds of premium makeup brushes (600.00):</label>
+                        <input type="number" id="All kinds of premium makeup brushes" min="0" step="1">
                     </div>
                 </div>
+                <div class="submit">
+                    <input type="submit" value="Buy Now">
+                    <input type="button" value="Add to favourite">
+                    <input type="button" value="Apply favourite">
+                </div>
             </form>
-           </div>
-        </section>
-        <footer>
-            <section>
-                © 2024 Green Mart. All rights reserved. | <strong>Contact Us:</strong> 123 Grocery St, Cityville, ABC123 | Phone: 555-1234
-            </section>
-        </footer>
+            <div class="table-container">
+                <table>
+                    <!-- The table content will be dynamically generated by JavaScript -->
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
 </body>
 </html>
